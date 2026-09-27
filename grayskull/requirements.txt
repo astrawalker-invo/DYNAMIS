@@ -1,0 +1,5 @@
+opencv-python
+paho-mqtt
+python-dotenv
+numpy
+requests

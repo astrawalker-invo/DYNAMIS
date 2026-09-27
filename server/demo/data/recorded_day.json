@@ -1,0 +1,43 @@
+{
+  "ldr": [
+    { "t": 0, "lux": 120, "relay": "full", "voltage_estimated": 220 },
+    { "t": 3600, "lux": 340, "relay": "medium", "voltage_estimated": 210 },
+    { "t": 7200, "lux": 680, "relay": "dim", "voltage_estimated": 185 },
+    { "t": 10800, "lux": 820, "relay": "dim", "voltage_estimated": 180 },
+    { "t": 14400, "lux": 750, "relay": "dim", "voltage_estimated": 182 },
+    { "t": 18000, "lux": 420, "relay": "medium", "voltage_estimated": 208 },
+    { "t": 21600, "lux": 180, "relay": "full", "voltage_estimated": 220 },
+    { "t": 25200, "lux": 80, "relay": "full", "voltage_estimated": 220 }
+  ],
+  "motion": [
+    { "t": 0, "room": "bedroom", "occupied": true },
+    { "t": 1800, "room": "bedroom", "occupied": false },
+    { "t": 3600, "room": "living", "occupied": true },
+    { "t": 5400, "room": "living", "occupied": false },
+    { "t": 7200, "room": "bedroom", "occupied": true },
+    { "t": 9000, "room": "bedroom", "occupied": false },
+    { "t": 18000, "room": "living", "occupied": true },
+    { "t": 25200, "room": "living", "occupied": false }
+  ],
+  "power": [
+    { "t": 0, "watts": 162 },
+    { "t": 1800, "watts": 87 },
+    { "t": 3600, "watts": 332 },
+    { "t": 5400, "watts": 150 },
+    { "t": 7200, "watts": 487 },
+    { "t": 9000, "watts": 150 },
+    { "t": 10800, "watts": 620 },
+    { "t": 14400, "watts": 820 },
+    { "t": 18000, "watts": 932 },
+    { "t": 21600, "watts": 487 },
+    { "t": 25200, "watts": 162 }
+  ],
+  "nilm": [
+    { "t": 3600, "device": "Air Cooler", "watts": 200, "confidence": 0.82, "status": "on" },
+    { "t": 7200, "device": "TV", "watts": 120, "confidence": 0.79, "status": "on" },
+    { "t": 10800, "device": "Air Cooler", "watts": 200, "confidence": 0.85, "status": "on" },
+    { "t": 14400, "device": "Laptop Charger", "watts": 65, "confidence": 0.71, "status": "on" },
+    { "t": 18000, "device": "TV", "watts": 120, "confidence": 0.88, "status": "off" },
+    { "t": 21600, "device": "Air Cooler", "watts": 200, "confidence": 0.9, "status": "off" }
+  ]
+}
