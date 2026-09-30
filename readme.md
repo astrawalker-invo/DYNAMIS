@@ -38,7 +38,7 @@ A full-stack **real-time energy monitoring and control system** for households. 
 
 ### Key Use Cases
 
-1. **Home Owners** — Monitor energy usage, reduce bills, understand consumption patterns
+1. **Home Owners** — Monitor energy usage, reduce bills, understand consumption patterns,compare bills to the existing system
 2. **Admins** — Manage multiple homes, users, and system-wide analytics
 3. **Developers** — Open API for integrations, extensible firmware & services
 
